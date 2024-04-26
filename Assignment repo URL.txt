@@ -1,0 +1,9 @@
+Assignment No 10, 11 & 12
+JavaScript (chap 17 to 30)
+
+
+
+
+chap 17-20		https://github.com/sh-webwork/SMIT-Batch-11-JavaScript/blob/main/Assignment%20(JS%20Chap%2017-20)
+chap 21-25		https://github.com/sh-webwork/SMIT-Batch-11-JavaScript/blob/main/Assignment%20(JS%20Chap%2021-25)
+chap 26-30		https://github.com/sh-webwork/SMIT-Batch-11-JavaScript/blob/main/Assignment%20(JS%20Chap%2026-30)
