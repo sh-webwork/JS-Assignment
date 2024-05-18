@@ -244,19 +244,22 @@
 // document.write("<p>" + result + "</p>");
 
 
-// Question No 12 
+// Question No 12 Write a JavaScript function that accepts a string as a 
+// parameter and find the longest word within the string.
 
 // function findLongestWord(str) {
 //     var words = str.split(' ');
-    
+//     // console.log("words", words)
+
 //     var longestWord = '';
-    
+//     // console.log(longestWord, "logestword")
+
 //     for (var i = 0; i < words.length; i++) {
 //         if (words[i].length > longestWord.length) {
 //             longestWord = words[i];
 //         }
 //     }
-    
+
 //     return longestWord;
 // }
 
@@ -267,6 +270,63 @@
 // document.write("<h2>Longest Word Finder</h2>");
 // document.write("<p>The longest word in the string is: " + longestWord + "</p>");
 
+// Question No 13 Write a JavaScript function that accepts two arguments, a 
+// string and a letter and the function will count the number of
+// occurrences of the specified letter within the string. 
+// Sample arguments : 'JSResourceS.com', 'o'
+
+
+// function countLetterOccurrences(str, letter) {
+//     var count = 0;
+
+//     for (var i = 0; i < str.length; i++) {
+//         // console.log(str.charAt(i))
+
+//         if (str.charAt(i) === letter) {
+//             count++;
+//         }
+//     }
+
+//     return count;
+// }
+
+
+// var exampleString = prompt("Enter a string:")
+// var exampleLetter = prompt("Enter a letter to find in string:");
+// var occurrences = countLetterOccurrences(exampleString, exampleLetter);
+// document.write("<h2>Letter Occurrence Counter</h2>");
+// document.write("<p>The letter '" + exampleLetter + "' occurs " + occurrences + " times in the string '" + exampleString + "'.</p>");
+
+
+
+// Question No 14 Create 2 functions that calculate properties of a circle, using 
+// the definitions here. Create a function called calcCircumference:
+// • Pass the radius to the function.
+// • Calculate the circumference based on the radius, and output 
+// "The circumference is NN".
+// Create a function called calcArea:
+// • Pass the radius to the function.
+// • Calculate the area based on the radius, and output "The area 
+// is NN".
+// Circumference of circle = 2πr
+// Area of circle = πr
+
+// function calcCircumference(radius) {
+//     var circumference = 2 * Math.PI * radius;
+
+//     document.write("<p>The circumference is " + circumference.toFixed(2) + "</p>");
+// }
+
+// function calcArea(radius) {
+//     var area = Math.PI * Math.pow(radius, 2);
+
+//     document.write("<p>The area is " + area.toFixed(2) + "</p>");
+// }
+
+// var radius = parseFloat(prompt("Enter the radius of the circle:"));
+// document.write("<h2>Circle Properties Calculator</h2>");
+// calcCircumference(radius);
+// calcArea(radius);
 
 
 
