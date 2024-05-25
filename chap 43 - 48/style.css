@@ -1,0 +1,85 @@
+.outerArea{
+
+    border: 2px solid black;
+}
+
+.mainBox{
+
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid black; */
+    /* display: flex; */
+    width: fit-content;
+    padding: 50px;
+}
+
+
+.heading{
+
+    /* border: 2px solid yellow; */
+    /* width: fit-content; */
+    height: fit-content;
+    display: block;
+}
+
+
+
+.mobileProduct img{
+
+    width: 250px;
+    height: 300px;
+    /* display: flex; */
+
+    /* border: 2px solid red; */
+}
+
+
+.mobileProduct p{
+
+display: flex;
+justify-content: center;
+/* border: 2px solid blue; */
+
+}
+
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  button {
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #ff1a1a;
+  }
+
+
+  .outputText{
+
+    width: 20%;
+    border: 4px solid black;
+    margin: 20px 0;
+    padding: 6px;
+    font-size: 36px;
+    color: #ff1a1a;
+    background-color: rgb(244, 218, 184);
+    border-radius: 20px;
+
+  }
