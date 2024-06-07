@@ -1,5 +1,4 @@
 body {
-
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0px;
   padding: 0px;
@@ -51,7 +50,7 @@ body {
 .watch-box {
 
   border: 20px solid #fad99d4b;
-
+  width: 600px;
   border-radius: 69px;
   padding: 120px;
 }
