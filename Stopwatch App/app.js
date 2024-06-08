@@ -65,11 +65,17 @@ var msec = 0
 var sec = 0
 var min = 0
 var hr = 0
+// var flag = true
 
 
 function start() {
     msec++
     msecHeading.innerHTML = msec
+    // if(flag == true){
+
+    //     flag=false
+    //     document.getElementById("startBtn").setAttribute("disabled")
+    // }
 
     if (msec === 100) {
         sec++
@@ -93,6 +99,7 @@ function start() {
 
 
 function startWatch() {
+    clearInterval(interval)
     interval = setInterval(start, 10)
 }
 
