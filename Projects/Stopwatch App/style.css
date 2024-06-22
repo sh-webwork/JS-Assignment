@@ -1,0 +1,87 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(./18196.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .main-container {
+  
+    /* border: 2px solid black; */
+    padding: 20px;
+    margin-left: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .main-container h1 {
+  
+    color: #90530ee4;
+  
+  }
+  
+  .main-heading h1 {
+  
+    font-weight: bold;
+    font-size: 50px;
+    /* text-decoration: underline; */
+    color: #90530ef4;
+  
+  
+    border: 20px solid #fad99d4b;
+  
+    border-radius: 69px;
+    padding: 66px;
+  }
+  
+  /* .main-heading {
+  
+    /* border: 2px solid red;
+  } */
+   
+  .watch-box {
+  
+    border: 20px solid #fad99d4b;
+    width: 600px;
+    border-radius: 69px;
+    padding: 120px;
+  }
+  
+  /* .display-box{
+  
+    /* border: 2px solid black; */
+  /* } */ */
+  
+  
+  .display-box h1{
+  
+    font-size:60px;
+  }
+  
+  .display-box p{
+  
+    font-size: 20px;
+  }
+  
+  .btn-box{
+  
+    /* border: 2px solid blue; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  
+  
+  }
+  
+  .btn-box button{
+  
+  width: 90px;
+  }

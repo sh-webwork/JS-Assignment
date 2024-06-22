@@ -1,0 +1,175 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #d6e5e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2em;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.7em;
+  width: 35%;
+  border: none;
+  border-radius: 50px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.submit-btn{
+
+  border-radius: 20px;
+}
+
+
+
+@media (min-width: 992px) {
+  .container {
+      min-width: 554px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+
+body{
+
+  background-image: url(./images/bg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-parent{
+
+  border: 2px solid black;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.form-section{
+
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

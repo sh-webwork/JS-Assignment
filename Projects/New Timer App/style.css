@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+
+  margin: 100px auto;
+}
+
+body {
+  text-align: center;
+  background: radial-gradient(circle, rgba(27,33,61,1) 2%, rgba(6,16,62,1) 15%, rgba(19,25,51,1) 54%, rgba(10,16,46,1) 73%, rgba(11,13,15,0.8547794117647058) 99%);
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #F5F5F5;
+  font-size: 50px;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  color: #FFFFFF;
+}
+
+input {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+button {
+  min-width: 120px;
+  margin: 20px 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.control{
+
+  margin-bottom: 50px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: #F5F5F5;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.time {
+  
+  background-color: #09090935;
+  color: #FFFFFF;
+  font-size: 100px;
+  width: 150px;
+  margin: 10px 10px;
+  border-radius: 50px;
+}
+
+button:hover {
+
+  cursor: pointer;
+  background-color: rgba(54, 50, 50, 0.165);
+  transition: 0.5s;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}

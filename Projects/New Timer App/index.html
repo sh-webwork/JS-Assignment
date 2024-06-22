@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractive Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Countdown Timer</h1><br><br>
+        <div class="control">
+            <div class="inputOpt">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Enter Date</th>
+                            <th>Enter Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="date" id="date"></td>
+                            <td><input type="time" id="time"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn">
+                <button onclick="calculate()" id="calculate">Calculate</button>
+                <button onclick="stop()" id="stop">Stop</button>
+                <button onclick="reset()" id="reset">Reset</button>
+            </div>
+
+        </div>
+
+        <div class="countdown">
+            <div>
+                <p class="heading">DAY</p>
+                <div class="time" id="countdown-days">0</div>
+            </div>
+            <div>
+                <p class="heading">HOURS</p>
+                <div class="time" id="countdown-hours">0</div>
+            </div>
+            <div>
+                <p class="heading">MINUTES</p>
+                <div class="time" id="countdown-minutes">0</div>
+            </div>
+            <div>
+                <p class="heading">SECONDS</p>
+                <div class="time" id="countdown-seconds">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
