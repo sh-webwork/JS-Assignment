@@ -9,25 +9,31 @@ function formLoginHandler() {
     var confirmPassword = document.getElementById("confirm-password")
     // console.log("myContainer", myContainer.className)
 
-    
-    // if (password.value == confirmPassword.value) {
-        
+
+    if (password.value == confirmPassword.value) {
+
         myContainer.className = "hide"
         startQuiz.className = "show"
         localStorage.setItem("username", username.value)
         localStorage.setItem("email", email.value)
         // console.log("local storage data: ", localStorage.value)
-        // return
-    // } 
-    // else {
+        return
+    }
+    else {
 
-    //     alert("password mismatched...")
-    // }
+        alert("password mismatched...")
+    }
 
 
 
 }
 
+
+function backHandler() {
+
+    myContainer.className = "show"
+    startQuiz.className = "hide"
+}
 
 
 

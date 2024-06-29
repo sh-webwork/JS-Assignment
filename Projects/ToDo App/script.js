@@ -22,7 +22,7 @@ function addEvent() {
     var deleteBtn = document.createElement("button")
     deleteBtn.innerHTML = "Delete"
     deleteBtn.setAttribute("onClick", "delTodo(this)")
-    deleteBtn.onClick = "delTodo()"
+    deleteBtn.onClick = "delTodo(ele)"
     // console.log("deleteBtn", deleteBtn)
     li.appendChild(editBtn)
     li.appendChild(deleteBtn)
