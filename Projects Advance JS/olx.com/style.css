@@ -1,0 +1,202 @@
+* {
+
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#parentProduct{
+
+    /* border: 4px solid royalblue; */
+    /* height: 600px;
+    width: 100%; */
+}
+
+header {
+
+    background-color: rgb(247, 248, 248);
+}
+
+.header img {
+
+    width: 61px;
+    height: auto;
+    display: flex;
+    gap: 60px;
+}
+
+.header h4 {
+
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.header-icon-image img {
+
+    width: 30px;
+    height: auto;
+    /* border: 1px solid red; */
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 236);
+    margin-right: 20px;
+
+}
+
+.brand-logo-black img {
+
+    width: 75px;
+    height: auto;
+}
+
+.collapse {
+
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+}
+
+.collapse img,
+.category-list img {
+
+    width: 20px;
+    height: auto;
+
+
+}
+
+.customcollapse {
+
+    padding: 0;
+
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: max-content;
+
+    /* padding: 20px; */
+}
+
+/* .custom-search-icon { 
+
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.navbar {
+
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.custom-navbar {
+
+    width: 150%;
+    /* border: 2px solid black; */
+}
+
+.OLX:hover{
+
+    color: blue;
+    cursor: pointer;
+}
+
+
+.customtext1 {
+
+    font-weight: bold;
+}
+
+.section1 {
+
+    display: flex;
+}
+
+.customhover1 li:hover {
+
+    color: rgb(54, 110, 156);
+    cursor: pointer;
+    ;
+    /* text-decoration: underline; */
+}
+
+.padding-Xaxis,
+.parent section,
+.footer section,
+.footer-bottom-section {
+
+    /* border: 2px solid black; */
+    padding: 0px 150px;
+}
+
+.ads {
+
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.custom-items-categories {
+
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 2px solid red; */
+}
+
+.custom-item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border: 2px solid black;
+}
+
+.custom-item img {
+
+    width: 100px;
+    height: auto;
+}
+
+.card-group:hover {
+
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.app-links img:hover,
+.social-icon img:hover,
+.custom-list li:hover {
+
+    cursor: pointer;
+    opacity: 80%;
+    /* background-color: lightgray; */
+
+    /* border: 2px solid black; */
+}
+
+.custom-list li {
+
+    color: rgb(163, 155, 138);
+    font-size: small;
+}
+
+.social-icon img{
+
+    /* border: 1px seashell ; */
+    /* opacity: 50%; */
+    width: 25px;
+    height: auto;
+}
+
+.custom-footer,
+.custom-footer div{
+
+    /* border: 2px solid red; */
+}
